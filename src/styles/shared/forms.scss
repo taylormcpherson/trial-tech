@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 500px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: .8em;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+input,
+textarea {
+    margin-top: 4px;
+    border: .5px solid rgba(0,0,0,.5);
+    border-radius: 3px;
+    padding: 6px;
+
+    &:focus {
+        outline: none;
+        border-color: #1a237e;
+    }
+}

@@ -1,0 +1,37 @@
+$medium-screens: '767px';
+$large-screens: '990px';
+
+.contact__section {
+    max-width: 85vw;
+    height: calc(100vh - 163px);
+    margin: auto;
+
+    @media (min-width: $large-screens)  {
+        height: calc(100vh - 80px);
+        max-width: 50vw;
+    }
+}
+
+.contact__lead-in {
+    margin-bottom: 0;
+    margin-top: 200px;
+    font-size: 1em;
+
+    @media (min-width: $large-screens)  {
+        margin-top: 120px;
+    }
+}
+
+.contact__title {
+    margin-top: 4px;
+    font-weight: 800;
+    font-size: 1.6em;
+}
+
+.contact__form {
+    width: 100%;
+}
+
+.contact__submit {
+    margin-top: 20px;
+}

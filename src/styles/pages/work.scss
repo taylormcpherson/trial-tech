@@ -1,0 +1,114 @@
+$medium-screens: '767px';
+$large-screens: '990px';
+
+.work__section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 85vw;
+
+    @media (min-width: $large-screens)  {
+        height: calc(100vh - 80px);
+    }
+}
+
+.work__intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 80px);
+
+    @media (min-width: $large-screens)  {
+        max-width: 66vw;
+    }
+}
+
+.work__intro-title {
+    font-size: 22px;
+    line-height: 32px;
+
+    @media (min-width: $medium-screens)  {
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 1.5px;    
+    }
+}
+
+.work__services {
+    padding: 90px 0;
+
+    @media (max-width: $medium-screens)  {
+        padding-top: 160px;
+    }
+}
+
+.work__services-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    @media (min-width: $large-screens)  {
+        padding-top: 40px;
+    }
+}
+
+.work__services-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+
+    @media (min-width: $large-screens)  {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+        gap: 40px;
+    }
+}
+
+.work__services-list {
+    list-style: none;
+    padding: 0;
+
+    @media (min-width: $large-screens)  {
+        flex: 0 0 50%;
+        margin: 0;
+    }
+}
+
+.work__services-list--item {
+    position: relative;
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding-left: 1.1em;
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 12px;
+        //transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #1a237e;
+
+    }
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.work__services-figure {
+    margin: 0;
+
+    @media (max-width: $large-screens)  {
+        max-width: 85vw;
+    }
+
+    @media (min-width: $large-screens)  {
+        flex: 0 0 33%;
+    }
+}

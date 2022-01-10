@@ -1,0 +1,14 @@
+$medium-screens: '767px';
+$large-screens: '990px';
+
+.presentational__is-hidden {
+    display: none;
+}
+
+.presentational__wrapper--layout {
+    margin-top: 90px;
+
+    @media (max-width: $medium-screens) {
+        margin-top: 163px;
+    }
+}
