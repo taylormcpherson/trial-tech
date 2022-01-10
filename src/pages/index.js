@@ -24,18 +24,29 @@ const IndexPage = () => {
     <Layout>
       <div className="work">
         <section className="work__intro work__section">
-          <h1 className='work__intro-title'>
+          <h1 className='work__intro-title'
+              data-sal="slide-up"
+              data-sal-duration="300"
+              data-sal-delay="300"
+              data-sal-easing="ease-in-out"
+          >
             Your Partner for Digital Litigation Services.
           </h1>
           <button type="button"  
                   className='button__primary'
                   onClick={() => scrollTo('#services')}
+                  data-sal="fade"
+                  data-sal-duration="600"
+                  data-sal-delay="600"
+                  data-sal-easing="ease-in-out"
           >
             View Services &nbsp;&nbsp;
             <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </button>
         </section>
-        <section className='work__services work__section' id="services">
+        <section className='work__services work__section' 
+                 id="services"
+        >
           <h2 className='work__services-title'>
             Our Services
           </h2>

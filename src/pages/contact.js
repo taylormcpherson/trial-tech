@@ -6,7 +6,12 @@ const ContactPage = () => {
   return (
     <Layout>
       <div className="contact">
-        <section className="contact__section">
+        <section className="contact__section"
+                 data-sal="fade"
+                 data-sal-duration="600"
+                 data-sal-delay="200"
+                 data-sal-easing="ease-in-out"
+        >
             <h1 className='contact__lead-in'>
                 Contact Us
             </h1>

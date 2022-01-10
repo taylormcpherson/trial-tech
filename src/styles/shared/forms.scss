@@ -24,7 +24,7 @@ textarea {
     padding: 6px;
 
     &:focus {
-        outline: none;
-        border-color: #1a237e;
+        outline-offset: 0;
+        outline-style: solid;
     }
 }
