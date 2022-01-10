@@ -16,7 +16,7 @@ const ContactPage = () => {
                 Contact Us
             </h1>
             <h2 className='contact__title work__intro-title'>
-                Let Us Know How We Can Support You
+                How Can We Support You?
             </h2>
             <Form></Form>  
         </section>
