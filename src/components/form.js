@@ -1,7 +1,4 @@
 import * as React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
-import Logo from '../images/logo.png'
 
 
 const Footer = () => {
@@ -9,8 +6,9 @@ const Footer = () => {
     <form className='contact__form'
         name="Contact Form" 
         method="POST" 
+        //action="https://formspree.io/f/mnqwnkgk"
+        data-netlify-honeypot="bot-field"
         data-netlify="true"
-        action="/submission"
     >
         <label>
             Name
@@ -18,7 +16,7 @@ const Footer = () => {
         </label>
         <label>
             Email
-            <input type="email" name="email" id="email" />
+            <input type="email" name="_replyto" id="email" />
         </label>
         <label>
             Message
@@ -27,7 +25,6 @@ const Footer = () => {
         <button className="contact__submit button__primary" type="submit">
             Send
         </button>
-        <input type="reset" className='presentational__is-hidden' value="Eraser" />
     </form>
   )
 }
