@@ -32,7 +32,7 @@ const IndexPage = () => {
                   onClick={() => scrollTo('#services')}
           >
             View Services &nbsp;&nbsp;
-            <FontAwesomeIcon icon={faAngleDown} />
+            <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </button>
         </section>
         <section className='work__services work__section' id="services">
@@ -55,7 +55,7 @@ const IndexPage = () => {
                   className="work__services-img img"
                   src={LegalTechImg} 
                   alt="A laptop, a smartphone, and a cup of coffee on an office desk."
-                  width='100%'>
+                  width='400px'>
                   </img>
               </figure>
           </div>

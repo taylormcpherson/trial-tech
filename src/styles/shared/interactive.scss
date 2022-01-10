@@ -24,7 +24,6 @@ a,
     position: relative;
     display: flex;
     align-items: center;
-    opacity: .84;
     transition: all .35s ease-in-out;
 
     &:before {
@@ -45,7 +44,6 @@ a,
     &:hover,
     &:focus,
     &.active {
-        opacity: 1;
         
         &:before {
             width: 100%;
@@ -60,13 +58,11 @@ a,
 
 
 .link__inline {
-    opacity: .84;
     transition: all .25s ease-in-out;
     
     &:hover,
     &:focus,
     &.active {
-        opacity: 1;
         
         &:before {
             content: '';
