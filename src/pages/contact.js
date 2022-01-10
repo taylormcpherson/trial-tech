@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Form from '../components/form'
 
 const ContactPage = () => {
   return (
@@ -12,30 +13,7 @@ const ContactPage = () => {
             <h2 className='contact__title work__intro-title'>
                 Let Us Know How We Can Support You
             </h2>
-            
-            <form className='contact__form'
-                    name="Contact Form" 
-                    method="POST" 
-                    data-netlify="true"
-                    data-netlify-recaptcha="true"
-                    action="/submission"
-            >
-                <label>
-                    Name
-                    <input type="text" name="name" id="name"/>
-                </label>
-                <label>
-                    Email
-                    <input type="email" name="email" id="email" />
-                </label>
-                <label>
-                    Message
-                    <textarea name="message" id="message" rows="5"/>
-                </label>
-                <button className="contact__submit button__primary" type="submit">
-                    Send
-                </button>
-            </form>
+            <Form></Form>  
         </section>
       </div>
     </Layout>
