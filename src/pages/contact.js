@@ -14,9 +14,11 @@ const ContactPage = () => {
             </h2>
             
             <form className='contact__form'
-                    name="contact" 
+                    name="Contact Form" 
                     method="POST" 
                     data-netlify="true"
+                    data-netlify-recaptcha="true"
+                    action="/submission"
             >
                 <label>
                     Name
