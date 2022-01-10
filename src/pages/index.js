@@ -12,7 +12,7 @@ const services = [
     copy: 'Comprehensive digital services for TrialDirector 6 and TrialDirector 360. We are available for any of your needs from depositions to trials.',
   },
   {
-    copy: 'Legal aid, paralegal services, and general support bringing your practice into the fast-paced, digital world.',
+    copy: 'Legal aid and general support bringing your practice into the fast-paced, digital world.',
   },
   {
     copy: 'Remote-friendly work throughout the COVID-19 Pandemic. In-person trial services may be offered upon request.',

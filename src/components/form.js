@@ -7,8 +7,7 @@ const Footer = () => {
         name="Contact Form" 
         method="POST" 
         //action="https://formspree.io/f/mnqwnkgk"
-        data-netlify-honeypot="bot-field"
-        data-netlify="true"
+        action="https://getform.io/f/3792217b-74b1-4a12-833f-20ab50b69867"
     >
         <label>
             Name
