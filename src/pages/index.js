@@ -35,15 +35,20 @@ const IndexPage = () => {
           >
             Your Partner for Digital Litigation Services
           </h1>
-          <p className='work__intro-desc'>
+          <p className='work__intro-desc'
+             data-sal="slide-up"
+             data-sal-duration="300"
+             data-sal-delay="300"
+             data-sal-easing="ease-in-out"
+          >
             Specializing in live, multimedia presentations with TrialDirector and more.
           </p>
           <button type="button"  
                   className='button__primary'
                   onClick={() => scrollTo('#services')}
                   data-sal="fade"
-                  data-sal-duration="600"
-                  data-sal-delay="600"
+                  data-sal-duration="750"
+                  data-sal-delay="750"
                   data-sal-easing="ease-in-out"
           >
             View Services &nbsp;&nbsp;
