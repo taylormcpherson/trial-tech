@@ -2,11 +2,13 @@ $medium-screens: '767px';
 $large-screens: '990px';
 
 .footer {
+    display: flex;
+    flex-direction: column-reverse;
     padding: 20px 40px;
     background-color: #b2dfdb;
 
-    @media (min-width: $large-screens) {
-        display: flex;
+    @media (min-width: $medium-screens) {
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
     }
@@ -25,21 +27,22 @@ $large-screens: '990px';
     margin-left: 4px;
 }
 
-
 .footer__list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     list-style: none;
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
-    padding-top: 10px;
-    border-top: 1px solid rgba(35, 33, 41, .5);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(35, 33, 41, .5);
 
 
-    @media (min-width: $large-screens) {
+    @media (min-width: $medium-screens) {
+        margin: 0;
         padding: 10px 20px;
-        border-top: none;
+        border-bottom: none;
     }
 }
 

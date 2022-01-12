@@ -2,14 +2,13 @@ $medium-screens: '767px';
 $large-screens: '990px';
 
 .contact__section {
-    max-width: 800px;
+    max-width: 600px;
     min-height: calc(100vh - 163px);
     margin: auto;
     padding: 0 40px 40px 40px;
 
     @media (min-width: $large-screens)  {
         min-height: calc(100vh - 80px);
-        max-width: 50vw;
     }
 }
 

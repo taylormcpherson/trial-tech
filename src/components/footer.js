@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faClock } from '@fortawesome/free-solid-svg-icons'
 import Logo from '../images/logo.png'
 
 
@@ -46,6 +46,17 @@ const Footer = () => {
                 >   
                     <FontAwesomeIcon icon={faPhone} />
                     &nbsp; 808.352.8220
+                </a>
+           </li>
+           <li className='footer__list-item'>
+                <a className="footer__link link__primary" 
+                    href="tel:+01-808-352-8220" 
+                    rel="nofollow noreferrer"
+                    target="_blank"
+                    aria-label="LinkedIn."
+                >   
+                    <FontAwesomeIcon icon={faClock} />
+                    &nbsp; Available 24/7
                 </a>
            </li>
         </ul>

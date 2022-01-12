@@ -27,12 +27,18 @@ $large-screens: '990px';
 .work__intro-title {
     font-size: 22px;
     line-height: 32px;
+    margin-bottom: 0;
 
     @media (min-width: $medium-screens)  {
         font-size: 40px;
         line-height: 60px;
         letter-spacing: 1.5px;    
     }
+}
+
+.work__intro-desc {
+    font-size: 1.3em;
+    margin-bottom: 40px;
 }
 
 .work__services {

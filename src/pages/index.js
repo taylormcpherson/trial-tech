@@ -9,13 +9,16 @@ import LegalTechImg from '../images/legal-tech.jpg'
 // data
 const services = [
   {
-    copy: 'Comprehensive digital services for TrialDirector 6 and TrialDirector 360. We are available for any of your needs from depositions to trials.',
+    copy: 'Comprehensive and real-time document, image, and video call-up using TrialDirector 6 and TrialDirector 360.',
   },
   {
-    copy: 'Legal aid and general support bringing your practice into the fast-paced, digital world.',
+    copy: '24/7 availability for depositions, hearings, trials, or other live presentations.'
   },
   {
-    copy: 'Remote-friendly work throughout the COVID-19 Pandemic. In-person trial services may be offered upon request.',
+    copy: 'General legal assistance support bringing your law practice innovatively into the rapidly expanding digital world.',
+  },
+  {
+    copy: 'Remote-friendly work throughout the COVID-19 Pandemic. In-person services with appropriate safeguards upon request.',
   },
 ]
 
@@ -30,8 +33,11 @@ const IndexPage = () => {
               data-sal-delay="300"
               data-sal-easing="ease-in-out"
           >
-            Your Partner for Digital Litigation Services.
+            Your Partner for Digital Litigation Services
           </h1>
+          <p className='work__intro-desc'>
+            Specializing in live, multimedia presentations with TrialDirector and more.
+          </p>
           <button type="button"  
                   className='button__primary'
                   onClick={() => scrollTo('#services')}
