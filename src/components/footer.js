@@ -49,15 +49,8 @@ const Footer = () => {
                 </a>
            </li>
            <li className='footer__list-item'>
-                <a className="footer__link link__primary" 
-                    href="tel:+01-808-352-8220" 
-                    rel="nofollow noreferrer"
-                    target="_blank"
-                    aria-label="LinkedIn."
-                >   
-                    <FontAwesomeIcon icon={faClock} />
-                    &nbsp; Available 24/7
-                </a>
+                <FontAwesomeIcon icon={faClock} />
+                &nbsp; Available 24/7
            </li>
         </ul>
     </footer>
